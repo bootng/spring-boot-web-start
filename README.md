@@ -15,3 +15,10 @@ $ mvn install
 $ mvn spring-boot:run
 
 ```
+
+## 2. Access the Application
+```
+http://localhost:8080/login
+http://localhost:8080/blog
+
+```
