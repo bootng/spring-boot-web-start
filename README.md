@@ -1,11 +1,20 @@
 
 # Spring Boot + Thymeleaf Web App
 
-Article link : https://www.bootng.com/2020/05/spring-boot-web-app-with-thymeleaf.html
+Spring boot application with Thymeleaf as the template engine. This small working applicaiton contains two pages
+1) Login page : Renders the login page
+2) Blog List Page: Renders the Blog List page. 
+This application does not access any database, it returns list of Blogs from Java.
+
+# Technologies Used
+Spring Boot 2.2.6.RELEASE <br>
+Thymeleaf <br>
+Java 10 <br>
+Bootstrap v4.1.3 <br>
 
 ## 1. How to build
 ```
-$ mvn install
+$ mvn clean install
 
 ```
 
